@@ -96,6 +96,15 @@ body {
 	--blockquote-color: var(--tx2)
 }
 
+pre[class*="language-"] {
+	overflow-x: auto !important;
+}
+
+code {
+	width: max-content;
+}
+
+
 .published-container .markdown-rendered h1,
 .published-container .markdown-rendered h2 {
 	border-bottom: 0px;
